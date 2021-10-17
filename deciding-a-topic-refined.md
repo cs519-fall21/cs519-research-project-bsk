@@ -44,5 +44,5 @@ Breaking of 2Mb pages into smaller pages , because of >60% address not getting u
 
 ## Open Questions
 > TODO Which version to use? mainline kernel? 
-
+> From the first two, which is more closely related to assignment 2?
 
