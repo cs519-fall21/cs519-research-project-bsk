@@ -32,6 +32,15 @@
 Breaking of 2Mb pages into smaller pages , because of >60% address not getting used.
 
 
+## Distributed systems under linux
+1. Complexity: Very High
+2. Learning Curve: Very High
+3. Problem - Study how the distributed system is managed in platforms like kubernetes and study the effect of scalability, memory managements, process isolation etc and possibilities of improvements in that area.
+4. Read-> concepts of cgroups, namespace in linux
+5. Advantage: Covers core components of linux
+
+
+
 ## Which version to use??
 mainline kernel?
 
