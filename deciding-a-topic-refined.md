@@ -30,7 +30,7 @@
 
 ## Large Pages Problem
 Breaking of 2Mb pages into smaller pages , because of >60% address not getting used.
-
+> - Ask from Prof. He told something about this problem, and it's not yet in mainline kernel.
 
 ## Distributed systems under linux
 1. Complexity: Very High
@@ -40,9 +40,7 @@ Breaking of 2Mb pages into smaller pages , because of >60% address not getting u
 5. Advantage: Covers core components of linux
 
 
+## Open Questions
+> Which version to use? mainline kernel? 
 
-## Which version to use??
-mainline kernel?
 
-## De-depulication -
-Concurrency - FS -Golang
