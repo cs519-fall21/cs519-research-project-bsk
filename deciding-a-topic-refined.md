@@ -1,4 +1,4 @@
-## better Memory compression in RAM 
+## Better ways to achieve page compression in linux 
 1. existing features in linux: **zram**
 2. zswap is experimental - both zram and zswap are hacky in nature. No real runtime compression support.
 3. Figure out why compression is yet to develop in linux.
@@ -15,7 +15,8 @@
     1. Learning and implementing compression algos may be a good scope for this course
     2. This may be  core problem of linux, should have been discussed 100s of times in community, still not a feature. Must 
         be strong reasons for this.
-## Smarter, more responsive proactive OOM Killer built natively in linux
+    
+## Smarter, more responsive proactive OOM Killer focusing on user-space programs
 1. Complexity: Very High
 2. Learning Curve: High
 3. Related Projects:
@@ -30,7 +31,7 @@
 
 ## Large Pages Problem
 Breaking of 2Mb pages into smaller pages , because of >60% address not getting used.
-> - Ask from Prof. He told something about this problem, and it's not yet in mainline kernel.
+> - #TODO Ask from Prof. He told something about this problem, and it's not yet in mainline kernel.
 
 ## Distributed systems under linux
 1. Complexity: Very High
@@ -41,6 +42,6 @@ Breaking of 2Mb pages into smaller pages , because of >60% address not getting u
 
 
 ## Open Questions
-> Which version to use? mainline kernel? 
+> #TODO Which version to use? mainline kernel? 
 
 
