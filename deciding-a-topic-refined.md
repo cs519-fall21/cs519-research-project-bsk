@@ -1,3 +1,7 @@
+## Large Pages Problem
+Breaking of 2Mb pages into smaller pages , because of >60% address not getting used.
+> - TODO Ask from Prof. He told something about this problem, and it's not yet in mainline kernel.
+
 ## Better ways to achieve page compression in linux 
 1. existing features in linux: **zram**
 2. zswap is experimental - both zram and zswap are hacky in nature. No real runtime compression support.
@@ -29,11 +33,8 @@
    1. The fb oomd offers a way to write your logic as plugin, then why not go with that.
    2. This is not a core kernel thing, more a no so important for the kernel working. 
 
-## Large Pages Problem
-Breaking of 2Mb pages into smaller pages , because of >60% address not getting used.
-> - #TODO Ask from Prof. He told something about this problem, and it's not yet in mainline kernel.
 
-## Distributed systems under linux
+## Distributed systems under linux - Draft
 1. Complexity: Very High
 2. Learning Curve: Very High
 3. Problem - Study how the distributed system is managed in platforms like kubernetes and study the effect of scalability, memory managements, process isolation etc and possibilities of improvements in that area.
@@ -42,6 +43,6 @@ Breaking of 2Mb pages into smaller pages , because of >60% address not getting u
 
 
 ## Open Questions
-> #TODO Which version to use? mainline kernel? 
+> TODO Which version to use? mainline kernel? 
 
 
