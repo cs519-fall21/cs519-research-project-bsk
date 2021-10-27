@@ -1,5 +1,5 @@
 
-2. task_struct and current_task usage -> global/how to filter for calling process? 
+1. task_struct and current_task usage -> global/how to filter for calling process? 
 3. rbtree of extents -> insertion and usage -> refer doc -> balancing -> start/end
 4. page_list -> ll in kernel -> specilized use
 5. alloc of physical pages -> hook on alloc -> call our rbtree extent
