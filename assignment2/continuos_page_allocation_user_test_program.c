@@ -40,6 +40,7 @@ int main() {
     printf("The size of pagesize in current system is %ld\n", sizeof(void));
 
 
+    long result = syscall(333);
     //  For fd passing as -1
     //  The fd argument is ignored; however, some  implementations require fd to be -1 if MAP_ANONYMOUS (or MAP_ANON) is
     //   specified, and portable applications should  ensure  this.
