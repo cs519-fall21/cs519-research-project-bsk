@@ -39,7 +39,7 @@ From [log](part2/b/1GB_extent_count.log) we have
 > [   71.458579] fallOS extent count 3372 
  as extent count. 
 
-The total page faults in stock kernel would be 256 000
+The total page faults in stock kernel would be 262144
  
-So, 256000 TLB entries are required to store all pages but with extent 3372 entries would be required in TLB for 100% assured coverage.
+So, 262144 TLB entries are required to store all pages but with extent 3372 entries would be required in TLB for 100% assured coverage.
 The 3372 count is based on sequential access pattern. See [user benchmark code](part2/a/test_mmap.c) 
